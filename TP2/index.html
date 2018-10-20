@@ -1,0 +1,237 @@
+ <html>
+    <head>  
+     <title> Page d'Information - Imane Benchaiba </title>
+	</head>
+     <body topmargin="20" leftmargin="5" bgcolor="#AF3F34">  
+	    <!--------------------- Tableau principal --------------------------->
+	         <table border="3" bordercolor="red" bgcolor="white" align="left" width="750" height="90%" cellspacing="0" cellpadding="10">
+	         <tr><td>
+		 <!--------------------- Tableau de la section 1 --------------------------->
+	               <table border="2" bordercolor="orange" bgcolor="silver" align="center" width="90%" height="10%" cellspacing="0" cellpadding="10">
+	               <tr><td>
+	     <!----------------- Debut section une ----------------------------> 
+	                     <h1 align=center ><font face="Verdana"  color="red">  Informations Personnelles </font> </h1>  
+		                 <table border="1" bordercolor="black" bgcolor="#E05E51" align="center" width="80%" height="10%" cellspacing="0" cellpadding="10">
+	                     <tr><td>
+		                     <table border="0"  align="center" cellspacing="0" cellpadding="5" >
+				 <form method="post" action="reponse.php" name="frm">
+		                     <tr><td align="right"><strong>  <font face="Arial" size="3"> Nom </font> </strong> </td>  
+							     <td><strong>  <font face="Arial" size="3">  :</font> </strong> </td>
+							     <td> <input type="text" name="nom"/>   </td> 
+							 </tr>  
+		                     <tr><td align="right"><strong>  <font face="Arial" size="3"> Pr&eacute;nom </font> </strong></td>
+							     <td><strong>  <font face="Arial" size="3">  :</font> </strong></td> </font> </strong>  
+								 <td> <input type="text" name="prenom"/> </td>
+							 </tr> 
+			                 <tr><td align="right"><strong>  <font face="Arial" size="3"> Date de naissance </font> </strong></td> 
+							     <td><strong>  <font face="Arial" size="3">  :</font> </strong></td> </font> </strong> 
+								 <td>  <input type="text" name="date"/> </td>
+							 </tr>
+			                 <tr><td align="right"><strong>  <font face="Arial" size="3"> Lieu de naissance </font> </strong></td> 
+							     <td><strong>  <font face="Arial" size="3">  :</font> </strong></td> </font> </strong> 
+								 <td>  <input type="text" name="lieunaiss"/> </td>
+							 </tr> 
+		                    							 
+							 </table>
+                        </table>
+                   </table>	   
+		  <!-- Fin section une -->
+		<hr width="75%" color="red" size="2">    
+		
+		
+		 <!------------------------------------- Tableau de la section 2 ----------------------------------------->
+	                <table border="2" bordercolor="orange" bgcolor=silver align="center" width="90%" height="10%" cellspacing="0" cellpadding="10">
+	                <tr><td>
+		  <!------------------------------------- Debut section deux ----------------------------------------->
+		                 <font face="Verdana" size="3" color="red"> <h1> <p align=center >Informations de Contact  </h1>  </p></font>
+		                 <table border="1" bordercolor="black" bgcolor=#E05E51 align="center" width="80%" height="10%" cellspacing="0" cellpadding="10">
+	                     <tr><td>
+			                 <table  border="0" align="center" cellspacing="0" cellpadding="5">
+							 <tr><td align="right"><font face="Arial" size="3"><strong> Genre </strong></font> </td> 
+							     <td> <font face="Arial" size="3"> <strong>  : </strong></font> </td>  
+								 <td> <label><input type="radio" name="genre" required value="Feminin"/>F&eacute;minin</label>
+							          <label><input type="radio" name="genre" required value="Masculin"/>Masculin</label>
+								 </td>
+							 </tr> 
+							 <tr><td align="right"><font face="Arial" size="3"><strong> Civilit&eacute; </strong></font> </td> 
+							     <td> <font face="Arial" size="3"> <strong>  : </strong></font> </td>  
+								 <td> <label><input type="radio" name="civilite" required value="Marie"/>Mari&eacute;</label>
+								      <label><input type="radio" name="civilite" required value="Celibataire"/>C&eacute;libataire</label>
+								 </td>
+							 </tr> 
+			                 <tr><td align="right"><font face="Arial" size="3"><strong> Adresse email </strong></font> </td> 
+							     <td> <font face="Arial" size="3"> <strong>  : </strong></font> </td>  
+								 <td> <input type="text" name="mail"/></td>
+							 </tr>  
+			                 <tr><td align="right"><font face="Arial" size="3"><strong> Num&eacute;ro de t&eacute;l&eacute;phone </strong></font> </td> 
+							     <td> <font face="Arial" size="3"><strong>   : </strong></font> </td> 
+								 <td>  <input type="text" name="num"/></td>
+							 </tr>  
+			                 <tr><td align="right"><font face="Arial" size="3"><strong> Adresse </strong></font> </td> 
+     							 <td> <font face="Arial" size="3"><strong>   : </strong></font>  </td> 
+								 <td><textarea name="adresse"></textarea>  </td>
+							 </tr> 
+			                 <tr><td align="right"><font face="Arial" size="3"><strong> Commune </strong></font> </td> 
+							     <td> <font face="Arial" size="3"><strong>   : </strong></font>  </td> 
+							     <td> <select name="commune"><option value="">  </option>
+								                             <option name="Thenia"> Thenia </option>
+									                         <option name="Si Mustapha"> Si Mustapha </option>
+									  </select> 
+							 </tr> 
+		                     <tr><td align="right"><font face="Arial" size="3"><strong> Wilaya </strong></font> </td> 
+							     <td> <font face="Arial" size="3"><strong>   : </strong></font> </td> 
+							     <td>  <select name="wilaya">    <option value="">  </option>
+								                                 <option value="Adrar"> Adrar </option>
+                                                                 <option value="Chlef"> Chlef </option>
+																 <option value="Aghouat"> Aghouat </option>
+																 <option value="Oum Bouaki"> Oum Bouaki </option>
+																 <option value="Batna"> Batna </option>
+																 <option value="Bejaia"> Bejaia </option>
+																 <option value="Biskra"> Biskra </option>
+																 <option value="Bechar"> Bechar </option>
+																 <option value="Blida"> Blida </option>
+																 <option value="Bouira"> Bouira </option>
+																 <option value="Tamanrasset"> Tamanrasset </option>
+																 <option value="Tebassa"> Tebassa </option>
+																 <option value="Tlemcen"> Tlemcen </option>
+																 <option value="Tiaret"> Tiaret </option>
+																 <option value="Tizi"> Tizi </option>
+																 <option value="Boumerdes"> Boumerdes </option>
+										</select> 
+							 </tr>                                                                                                                                                                                   
+                             </table>				 
+                         </table>
+                    </table>
+		 <!-- Fin section deux -->
+        <hr width="500" color="blue" size="3">  
+		
+		
+		  <!------------------------------------- Tableau de la section 3 ----------------------------------------->	 
+	                <table border="2" bordercolor="orange" bgcolor=silver align="center" width="90%" height="10%" cellspacing="0" cellpadding="10">
+	                <tr><td>
+		<!----------------------------------------- Debut section trois --------------------------------------->
+		                 <font face="Verdana" size="3" color="red"> <h1 align=center > Informations sur le Cursus  </h1> </font>
+		                 <table border="1" bordercolor="black" bgcolor=#E05E51 align="center" width="80%" height="10%" cellspacing="0" cellpadding="10">
+	                     <tr><td>
+						      <!----------------------------------------- Cycle primaire --------------------------------------->
+		                      <ol>
+								<li>  <font face="Arial" size="3"><strong>  Cycle Primaire </strong></font> 			              
+									<ul type="disc"><li> <font face="Arial" size="3"><strong>  Ecole : </strong></font>  <input type="text" name="primaire"/></li>
+												    <li> <font face="Arial" size="3"><strong>  Ann&eacute;e de d&eacute;but : </strong></font>
+													     <select name="adprimaire">
+														       <option value="">  </option>
+														       <option value="2001"> 2001 </option>
+															   <option value="2002"> 2002 </option>
+														 </select> </li>
+													<li> <font face="Arial" size="3"><strong>  Ann&eacute;e de fin : </strong></font>  
+													      <select name="afprimaire">
+														       <option value="">  </option>
+														       <option value="2008"> 2008 </option>
+															   <option value="2009"> 2009 </option>
+														 </select> </li>
+									</ul>
+								</li>			 
+					          
+							  
+                              <!----------------------------------------- Cycle Moyen --------------------------------------->
+				              <li>  <font face="Arial" size="3"><strong> Cycle Moyen </strong></font> 			      				      
+								<ul><li>  <font face="Arial" size="3"><strong> CEM : </strong></font>  <input type="text" name="cem"/></li>
+									<li>  <font face="Arial" size="3"><strong> Ann&eacute;e de d&eacute;but : </strong></font> 									       
+												         <select name="adcem">
+														       <option value="">  </option>
+														       <option value="2001"> 2001 </option>
+															   <option value="2002"> 2002 </option>
+														 </select> </li>
+ 												
+									<li>  <font face="Arial" size="3"><strong> Ann&eacute;e de fin : </strong></font> 
+									                     <select name="afcem">
+														       <option value="">  </option>
+														       <option value="2009"> 2009 </option>
+															   <option value="2010"> 2010 </option>
+														 </select> </li>
+								</ul>
+					          </li>
+				
+				              <!----------------------------------------- Cycle secondaire --------------------------------------->
+				              <li>   <font face="Arial" size="3"><strong> Cycle Secondaire </strong></font> 				             
+								<ul type="square">
+									<li>   <font face="Arial" size="3"><strong> Lycee : </strong></font>  <input type="text" name="lycee"/></li>
+									<li>   <font face="Arial" size="3"><strong> Ann&eacute;e de d&eacute;but : </strong></font>
+                                                          <select name="adlycee">
+														       <option value="">  </option>
+														       <option value="2011"> 2011 </option>
+															   <option value="2012"> 2012 </option>
+														 </select> </li>									
+									<li>   <font face="Arial" size="3"><strong> Ann&eacute;e de fin : </strong></font> 
+									                      <select name="aflycee">
+														       <option value="">  </option>
+														       <option value="2014"> 2014 </option>
+															   <option value="2015"> 2015 </option>
+														 </select> </li>
+									<li>   <font face="Arial" size="3"><strong> Bac : </strong></font> 
+										<dl>
+											<dt><p><strong> S&eacute;rie: </strong></p>
+												<dd><select name="serie">
+												               <option value="">  </option>
+														       <option value="Science"> Science </option>
+															   <option value="Math"> Math </option>
+															   <option value="Lettre"> Lettre </option>
+													</select> </li>
+											<dt><p><strong> Mention: </strong></p>
+												<dd><select name="mention">
+												               <option value="">  </option>
+														       <option value="Bien"> Bien </option>
+															   <option value="Eccelent"> Eccelent </option>
+												    </select> </li>
+											<dt><p><strong> Moyenne: </strong></p>
+												<dd><input type="text" name="moyenne"/>
+										</dl>		
+									</li>
+								</ul>
+							  </li>
+				      <!----------------------------------------- Cycle universitaire --------------------------------------->        
+				             <li>   <font face="Arial" size="3"><strong> Cycle Universitaire </strong></font> 			             			     
+								<ul><li>   <font face="Arial" size="3"><strong> Ann&eacute;e de d&eacute;but : </strong></font>  
+								                 <select name="adfac"> 
+												       <option value="">  </option>
+												       <option value="2014"> 2014 </option>
+													   <option value="2015"> 2015 </option>
+												 </select> </li> 
+									<li>   <font face="Arial" size="3"><strong>  Titre P.F.E : </strong></font>   <input type="text" name="pfe"/>   </li>
+								</ul>
+							 </li>
+			                 </ol>
+							  
+							 
+                       </table>
+                   </table>
+				     <!-- Fin section trois -->
+				     <!----------------------------- tableau de la section divers --------------------------------------------------->
+					 <table border="2" bordercolor="orange" bgcolor=silver align="center" width="90%" height="10%" cellspacing="0" cellpadding="10">
+	                <tr><td>
+					<!----------------------------------------- Section divers --------------------------------------->
+			        <h1 align=center ><font face="Verdana"  color="red"> Divers </font> </h1>
+			    	<table border="1" bordercolor="black" bgcolor=#E05E51 align="center" width="80%" height="10%" cellspacing="0" cellpadding="10">
+	                <tr><td>
+					    <table  border="0" align="center" cellspacing="0" cellpadding="5">
+					    <tr><font face="Arial" size="3"><strong> Centre d'int&eacute;r&ecirc;ts : </strong></font>  
+					       
+							<tr><td> <label><input type="checkbox" name="lecture" value="Lecture"/>Lecture</label> </td></tr>
+							<tr><td> <label><input type="checkbox" name="religion" value="Religion"/>Religion</label> </td></tr>
+							<tr><td> <label><input type="checkbox" name="musique" value="Musique"/>Musique</label> </td></tr>
+							<tr><td> <label><input type="checkbox" name="television" value="Television"/>T&eacute;l&eacute;vision</label> </td></tr>
+							<tr><td> <label><input type="checkbox" name="cinema" value="Cinema"/>Cin&eacute;ma</label> </td></tr>
+							<tr><td> <label><input type="checkbox" name="reseau" value="Reseaux sociaux"/>R&eacute;seaux sociaux</label> </td></tr>
+							<tr><td> <label><input type="checkbox" name="cuisine" value="Cuisine"/>Cuisine</label> </td></tr>
+							<tr><td> <label><input type="checkbox" name="jeux" value="Jeux"/>Jeux</label> </td></tr>
+							<tr><td> <label><input type="checkbox" name="technologie" value="Nouvelle technologie"/>Nouvelle Technologie</label> </td></tr>
+							
+					    </table>
+				    </table>
+					<tr><td align="center"><input type="submit" name="valider" /></td></tr>	  
+				   </form> 
+	        <!-- Fin section divers -->
+             </table>
+				
+     </body>
+ </html>
